@@ -2,19 +2,30 @@
 .moduletable {}
 
 /* @group hmenu */
-.moduletable_hmenu { font-family: Times;}
+.module_hmenu { 
+	font-family: Times;
+	text-transform: uppercase;}
 
-.moduletable_hmenu.primary {
-	font-size: 12px; 
-	color: #ffffff;
+.module_hmenu.primary {
+	background: url('../images/menu_bgRepeat.png') center repeat-x;
+	font-size: 12px;
+	line-height: 71px;
+	text-align: right;
 }
 
-.moduletable_hmenu > ul {
+.module_hmenu.primary > div {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.module_hmenu.primary ul {
 	margin: 0;
 	padding: 0;
 }
 
-.moduletable_hmenu > ul > li {
+.module_hmenu.primary ul > li {
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
@@ -23,4 +34,4 @@
 	padding: 0 5px;
 }
 
-
+.module_hmenu.primary a { color: #ffffff;}

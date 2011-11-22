@@ -5,3 +5,38 @@
 	margin: 0 auto;
 	padding: 0 10px;
 }
+
+#header {
+	background: #312513 url('../images/header_shadowBottom.png') bottom repeat-x;
+	padding-bottom: 40px;	
+}
+
+#header > div {
+	background: url('../images/header_shadowTop.png') top repeat-x;
+	padding-top: 40px;
+}
+
+#top {
+	background: #ffffff url('../images/top_dottedLine.png') bottom repeat-x;
+	min-height: 67px;
+	padding-bottom: 1px;
+}
+
+#content {
+	border-top: 1px solid #c0baa7;
+	background: #efe6d2 url('../images/content_stripesRepeat.jpg') top repeat-x;
+	padding: 0px 0 0 0;
+}
+
+#comp {
+	float: left;
+	padding: 0px 50px 30px 10px;
+	width: 580px;
+}
+
+#bottom {
+}
+
+#sidebar {
+	padding: 0px 10px;
+}

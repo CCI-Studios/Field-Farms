@@ -13,6 +13,12 @@ h1 {
 	color: #312513;
 	text-transform: uppercase;
 	letter-spacing: .2em;
+	margin-top: 0px;
+}
+
+#comp h1 {
+	position: relative;
+	margin: -40px 0px 80px;
 }
 
 h2 {
@@ -26,10 +32,10 @@ h3 {
 }
 
 a, a:active, a:visited {
-	color: #607890;
+	color: #4a3e2c;
 	text-decoration: none;
 }
 a:hover {
-	color: #036;
+	color: #4a3e2c;
 	text-decoration: underline;
 }

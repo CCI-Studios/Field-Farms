@@ -54,30 +54,46 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 
 <body class="<?= $menu ?>">
 
-<div id="header">
-	<jdoc:include type="modules" name="header" style="rounded" />
-</div>
+	<div id="header">
+		<div>
+			<jdoc:include type="modules" name="header" style="rounded" />
+		</div>
+	</div>
 
-<div id="body">
-	<div id="content">
+	<div id="body">
+		
 		<div id="top">
-			<jdoc:include type="modules" name="" style="xhtml" />
+			<div>
+				<jdoc:include type="modules" name="" style="xhtml" />
+			</div>
 		</div>
-		<div id="comp">
-		</div>
-		<div id="bottom">
+		
+		<div id="content">
+			<div><div class="container">
+				
+				<div id="comp">
+					<jdoc:include type="component" />
+				</div>
+				<div class="clear"></div>
+				
+				<div id="bottom">
+					<jdoc:include type="modules" name="bottom" style="xhtml" />
+				</div>
+				
+				<div id="sidebar">
+					<jdoc:include type="modules" name="sidebar" style="xhtml" />
+				</div>
+				
+			</div></div>
 		</div>
 	</div>
-	<div id="sidebar">
-	</div>
-</div>
 
-<div id="footer">
-	<jdoc:include type="modules" name="footer" style="xhtml" />
-	<div id="copyright">
-		<span class="center">&copy; <?php echo date('Y') ?> Field Farms Marketing Ltd. All Rights Reserved.&nbsp | &nbsp <a href="http://ccistudios.com">Site by CCI Studios</a></span>
+	<div id="footer">
+		<jdoc:include type="modules" name="footer" style="xhtml" />
+		<!-- <div id="copyright">
+			<span class="center">&copy; <?php echo date('Y') ?> Field Farms Marketing Ltd. All Rights Reserved.&nbsp | &nbsp <a href="http://ccistudios.com">Site by CCI Studios</a></span>
+		</div> -->
 	</div>
-</div>
 
 	<div class="hidden">
 		<jdoc:include type="modules" name="hidden" style="raw" />
