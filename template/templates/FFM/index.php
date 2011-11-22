@@ -54,25 +54,30 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 
 <body class="<?= $menu ?>">
 
-	<div id="wrapper">
-		<header>
-			<jdoc:include type="modules" name ="header" style="xhtml" />
-		</header>
+<div id="header">
+	<jdoc:include type="modules" name="header" style="rounded" />
+</div>
 
-		<div id="main">
-			<aside>
-				<jdoc:include type="modules" name="left" style="xhtml" />
-			</aside>
-
-			<article>
-				<jdoc:include type="component" />
-			</article>
+<div id="body">
+	<div id="content">
+		<div id="top">
+			<jdoc:include type="modules" name="" style="xhtml" />
 		</div>
-
-		<footer>
-			<jdoc:include type="modules" name="footer" style="xhtml" />
-		</footer>
+		<div id="comp">
+		</div>
+		<div id="bottom">
+		</div>
 	</div>
+	<div id="sidebar">
+	</div>
+</div>
+
+<div id="footer">
+	<jdoc:include type="modules" name="footer" style="xhtml" />
+	<div id="copyright">
+		<span class="center">&copy; <?php echo date('Y') ?> Field Farms Marketing Ltd. All Rights Reserved.&nbsp | &nbsp <a href="http://ccistudios.com">Site by CCI Studios</a></span>
+	</div>
+</div>
 
 	<div class="hidden">
 		<jdoc:include type="modules" name="hidden" style="raw" />
