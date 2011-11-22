@@ -7,6 +7,24 @@ body, select, input, textarea {
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
+h1 {
+	font-family: Times;
+	font-size: 18px;
+	color: #312513;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+
+h2 {
+	font-size: 18px;
+	color: #9b8d7a;
+}
+
+h3 {
+	font-size: 14px;
+	color: #4a3e2c;
+}
+
 a, a:active, a:visited {
 	color: #607890;
 	text-decoration: none;
