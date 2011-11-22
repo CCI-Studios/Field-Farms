@@ -28,8 +28,9 @@
 
 	<positions>
 		<position>header</position>
-		<position>sidebar</position>
+		<position>top</position>
 		<position>bottom</position>
+		<position>sidebar</position>
 		<position>footer</position>
 	</positions>
 
