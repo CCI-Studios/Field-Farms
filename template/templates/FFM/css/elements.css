@@ -5,25 +5,27 @@ body, select, input, textarea {
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
-h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1, h2, h3, h4, h5, h6 { 
+	font-weight: bold;
+
+}
 
 h1 {
-	font-family: Times;
+	position: relative;
+	margin: -40px 0px 80px;
+	padding-left: 60px;
+
+	font-family: Times, serif;
 	font-size: 18px;
 	color: #312513;
 	text-transform: uppercase;
-	letter-spacing: .2em;
-	margin-top: 0px;
-}
-
-#comp h1 {
-	position: relative;
-	margin: -40px 0px 80px;
+	background: url(../images/h1-aside.png) left no-repeat;
 }
 
 h2 {
 	font-size: 18px;
 	color: #9b8d7a;
+	text-shadow: 1px 1px 1px #fff;
 }
 
 h3 {
