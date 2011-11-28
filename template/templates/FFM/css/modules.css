@@ -13,7 +13,7 @@
 	font-size: 18px;
 	color: #9b8d7a;
 	text-shadow: 1px 1px 1px #fff;
-	*zoom: 1;
+	filter:DropShadow(Color=#ffffff, OffX=1, OffY=1)
 }
 	
 .moduletable h2,
@@ -91,7 +91,7 @@
 .module_hmenu.primary li.current a {
 	background: url(../images/rollover.png) center 45px no-repeat;
 }
-.module_hmenu.secondary li {line-height: 6px;}
+.module_hmenu.secondary li {line-height: 8px;}
 .module_hmenu.secondary a:hover { border-bottom: 1px solid #696969; }
 
 body.home #header .module_hmenu {
