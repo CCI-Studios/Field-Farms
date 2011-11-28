@@ -115,6 +115,11 @@ body.home #header .module_hmenu {
 	border: 1px solid #d4cdbd;
 	background: #f7f3e9;
 }
+
+.module.popped > div > div > div p {
+	margin-top: 0px;
+}
+
 /* @end */
 
 
