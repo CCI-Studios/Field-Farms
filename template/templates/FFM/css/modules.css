@@ -105,7 +105,7 @@ body.home #header .module_hmenu {
 
 /* @group popped */
 .module.popped {
-	padding-bottom: 19px;
+	padding-bottom: 31px;
 	background: url(../images/popped-shadow.jpg) bottom no-repeat;
 }
 
