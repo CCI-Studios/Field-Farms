@@ -8,7 +8,7 @@
  */
 
 // no direct access
-defined('_JEXEC') or die;
+defined('_JEXEC') or die('Direct access not allowed');
 
 // Create a shortcut for params.
 $params = &$this->item->params;
