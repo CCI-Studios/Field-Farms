@@ -13,6 +13,7 @@
 	font-size: 18px;
 	color: #9b8d7a;
 	text-shadow: 1px 1px 1px #fff;
+	*zoom: 1;
 }
 	
 .moduletable h2,
