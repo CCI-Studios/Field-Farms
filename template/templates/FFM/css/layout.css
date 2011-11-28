@@ -49,6 +49,8 @@ body.home #header > div { padding: 0; }
 	width: 580px;
 }
 
+#content ul { padding: 0px; }
+
 #component {}
 #bottom {}
 
