@@ -1,15 +1,64 @@
 /* @group modules */
-.moduletable {}
+.moduletable { margin-top: 20px; }
+.moduletable:first-child { margin-top: 0; }
+
+.moduletable.hr {
+	padding-bottom: 22px;
+	background: url(../images/module-hr.jpg) bottom repeat-x;
+}
+
+
+.moduletable h3:first-child,
+.module h3:first-child {
+	font-size: 18px;
+	color: #9b8d7a;
+	text-shadow: 1px 1px 1px #fff;
+}
+	
+.moduletable h2,
+.module h2 {
+	font-size: 14px;
+	color: #4a3e2c;
+}
 
 /* @group hmenu */
 .module_hmenu { 
 	font-family: Times;
-	text-transform: uppercase;}
+	text-transform: uppercase;
+	font-size: 10px;
+	text-align: center;
+}
 
+.module_hmenu ul {
+	margin: 0;
+	padding: 0;
+}
+
+.module_hmenu ul > li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	position: relative;
+	
+	padding: 0 9px;
+}
+.module_hmenu ul > li:first-child { padding: 0; }
+
+.module_hmenu li a {
+	display: block;
+	color: #696969;
+}
+
+.module_hmenu li:hover a,
+.module_hmenu li.current a {
+	text-decoration: none;
+}
+
+
+/* @group primary menu */
 .module_hmenu.primary {
 	background: url('../images/menu_bgRepeat.png') center repeat-x;
 	font-size: 12px;
-	line-height: 71px;
 	text-align: right;
 }
 
@@ -20,18 +69,58 @@
 	padding: 0 10px;
 }
 
-.module_hmenu.primary ul {
-	margin: 0;
+.module_hmenu.primary ul > li {
+	padding: 0 0 0 27px;
+}
+
+.module_hmenu.primary ul > li:first-child {
+	position: absolute;
+	left: 0;
+	top: -12px;
 	padding: 0;
 }
 
-.module_hmenu.primary ul > li {
-	display: inline-block;
-	*display: inline;
-	*zoom: 1;
-	position: relative;
+.module_hmenu.primary a { 
+	height: 71px;
 	
-	padding: 0 5px;
+	color: #ffffff;
+	line-height: 71px;
+}
+.module_hmenu.primary li:hover a,
+.module_hmenu.primary li.current a {
+	background: url(../images/rollover.png) center 45px no-repeat;
 }
 
-.module_hmenu.primary a { color: #ffffff;}
+
+body.home #header .module_hmenu {
+	position: absolute;
+	top: 37px;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+}
+/* @end */
+
+
+/* @group popped */
+.module.popped {
+	padding-bottom: 19px;
+	background: url(../images/popped-shadow.jpg) bottom no-repeat;
+}
+
+.module.popped > div > div > div > div {
+	padding: 20px;
+	border: 1px solid #d4cdbd;
+	background: #f7f3e9;
+}
+/* @end */
+
+
+
+
+
+
+
+
+
+

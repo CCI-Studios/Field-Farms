@@ -60,33 +60,38 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		</div>
 	</div>
 
-	<div id="body">
-		<div id="top"><div>
-			<jdoc:include type="modules" name="" style="xhtml" />
-		</div></div>
+	<div id="top"><div class="container">
+		<jdoc:include type="modules" name="top" style="xhtml" />
+	</div></div>
 		
-		<div id="content"><div><div class="container">
-			<div id="comp">
-				<jdoc:include type="component" />
-			</div>
-			<div class="clear"></div>
-				
-			<div id="bottom">
-				<jdoc:include type="modules" name="bottom" style="xhtml" />
-			</div>
-				
-			<div id="sidebar">
-				<jdoc:include type="modules" name="sidebar" style="xhtml" />
-			</div>
-		</div></div></div>
-	</div>
+	<div id="body"><div><div><div class="container">
+		<div id="content">
+			<?php if ($menu !== 'home'): ?>
+				<div id="component">
+					<jdoc:include type="component" />
+				</div>
+			<?php endif; ?>
+		
+			<?php if ($this->countModules('bottom')): ?>
+				<div id="bottom">
+					<jdoc:include type="modules" name="bottom" style="rounded" />
+				</div>
+			<?php endif; ?>
+		</div>
+		
+		<div id="sidebar">
+			<jdoc:include type="modules" name="sidebar" style="xhtml" />
+		</div>
+		
+		<div class="clear"></div>
+	</div></div></div></div>
 
-	<div id="footer">
-		<jdoc:include type="modules" name="footer" style="xhtml" />
-		<!-- <div id="copyright">
-			<span class="center">&copy; <?php echo date('Y') ?> Field Farms Marketing Ltd. All Rights Reserved.&nbsp | &nbsp <a href="http://ccistudios.com">Site by CCI Studios</a></span>
-		</div> -->
-	</div>
+	<div id="footer"><div class="container">
+		<jdoc:include type="modules" name="footer" style="rounded" />
+		<p class="center">
+			&copy; <?php echo date('Y') ?> Field Farms Marketing Ltd. All Rights Reserved.&nbsp; | &nbsp; <a class="grey" target="_blank" href="http://ccistudios.com">Site by CCI Studios</a>
+		</p>
+	</div></div>
 
 	<div class="hidden">
 		<jdoc:include type="modules" name="hidden" style="raw" />

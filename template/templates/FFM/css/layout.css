@@ -16,27 +16,50 @@
 	padding-top: 40px;
 }
 
+body.home #header { padding: 0; }
+body.home #header > div { padding: 0; }
+
 #top {
 	background: #ffffff url('../images/top_dottedLine.png') bottom repeat-x;
-	min-height: 67px;
-	padding-bottom: 1px;
+	min-height: 22px;
+	padding: 30px 0 15px;
+	
+	color: #696969;
+	font-family: Times, serif;
+	font-size: 18px;
 }
 
-#content {
+#body {
 	border-top: 1px solid #c0baa7;
 	background: #efe6d2 url('../images/content_stripesRepeat.jpg') top repeat-x;
 	padding: 0px 0 0 0;
 }
-
-#comp {
+#body > div { 
+	padding-top: 17px;
+	background: url(../images/content_shadowTop.png) top no-repeat;
+}
+#body > div > div {
+	padding: 40px 0 75px;
+	background: url(../images/content_shadowBottom.png) bottom no-repeat;
+}
+	
+#content {
 	float: left;
-	padding: 0px 50px 30px 10px;
+	padding: 0px 55px 0 0;
 	width: 580px;
 }
 
-#bottom {
-}
+#component {}
+#bottom {}
 
 #sidebar {
-	padding: 0px 10px;
+	width: 305px;
+	float: left;
+}
+
+#footer {
+	padding: 15px 0;
+	background: url(../images/top_dottedLine.png) 0 1px repeat-x; 
+	font-size: 10px;
+	color: #696969;
 }

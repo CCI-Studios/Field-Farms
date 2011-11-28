@@ -1,18 +1,17 @@
 /* elements */
 body, select, input, textarea {
-	color: #444; /* off black */
+	color: #4a3e2c; /* off black */
 	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.3em;
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
-h1, h2, h3, h4, h5, h6 { 
-	font-weight: bold;
-
-}
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
 h1 {
 	position: relative;
-	margin: -40px 0px 80px;
+	margin: -99px 0px 85px;
 	padding-left: 60px;
 
 	font-family: Times, serif;
@@ -41,3 +40,6 @@ a:hover {
 	color: #4a3e2c;
 	text-decoration: underline;
 }
+
+a.grey { color: #696969; }
+
