@@ -91,7 +91,8 @@
 .module_hmenu.primary li.current a {
 	background: url(../images/rollover.png) center 45px no-repeat;
 }
-
+.module_hmenu.secondary li {line-height: 6px;}
+.module_hmenu.secondary a:hover { border-bottom: 1px solid #696969; }
 
 body.home #header .module_hmenu {
 	position: absolute;
