@@ -19,6 +19,7 @@ h1 {
 	color: #312513;
 	text-transform: uppercase;
 	background: url(../images/h1-aside.png) left no-repeat;
+	*zoom: 1;
 }
 
 h2 {
