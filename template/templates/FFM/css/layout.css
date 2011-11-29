@@ -27,6 +27,7 @@ body.home #header > div { padding: 0; }
 	color: #696969;
 	font-family: Times, serif;
 	font-size: 18px;
+	line-height: 20px;
 }
 
 #body {
