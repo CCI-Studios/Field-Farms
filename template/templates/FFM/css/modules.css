@@ -90,8 +90,9 @@
 .module_hmenu.primary li.current a {
 	background: url(../images/rollover.png) center 45px no-repeat;
 }
+.module_hmenu.secondary ul { position:relative; *zoom: 1;}
 .module_hmenu.secondary li {line-height: 10px;}
-.module_hmenu.secondary a:hover { border-bottom: 1px solid #696969; }
+.module_hmenu.secondary a:hover { text-decoration: underline; }
 
 body.home #header .module_hmenu {
 	position: absolute;
