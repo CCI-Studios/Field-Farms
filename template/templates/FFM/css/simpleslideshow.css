@@ -1,0 +1,16 @@
+ul.sigProClassic li.sigProThumb span.sigProLinkWrapper {
+	margin: 0px;
+}
+
+ul.sigProClassic li.sigProThumb span.sigProLinkOuterWrapper {
+	background: none;
+	padding: 0 !important;
+}
+
+ul.sigProClassic li.sigProThumb span.sigProLinkWrapper {
+	padding: 5px;
+}
+
+ul.sigProClassic li.sigProThumb {
+	margin: 4px;
+}
