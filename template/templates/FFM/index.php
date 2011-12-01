@@ -35,7 +35,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/x-icon" href="http://ff.ccistaging.com/templates/FFM/resources/favicon.ico" />
-	<link rel="shortcut icon" type="image/x-icon" href="http://ff.ccistaging.com/templates/FFM/resources/favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="/templates/FFM/favicon.ico">	
 	<link rel="apple-touch-icon" href="/templates/<?= $this->template ?>/resources/apple-touch-icon.png">
 
 	<!-- load css -->
