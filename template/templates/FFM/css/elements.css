@@ -22,7 +22,8 @@ h1 {
 	*zoom: 1;
 }
 
-h2 {
+h2,
+.item-page h2 a {
 	font-size: 18px;
 	color: #9b8d7a;
 	text-shadow: 1px 1px 1px #fff;
@@ -37,7 +38,7 @@ a, a:active, a:visited {
 	color: #4a3e2c;
 	text-decoration: none;
 }
-a:hover {
+a:hover, .item-page h2 a:hover {
 	color: #4a3e2c;
 	text-decoration: underline;
 }
